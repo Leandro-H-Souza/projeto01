@@ -1,15 +1,22 @@
 @charset "UTF-8";
 html{
-    background-color: black;
+    background-color: rgb(110, 110, 110);
+    background-image: url(pexels-rifkyilhamrd-788200.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 body{
-    background-color: rgb(255, 255, 255);
-    height: 90vh;
-    width: 100%;
+    background-color: rgba(255, 255, 255, 0.507);
+    height: 70vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid black;
 }
 
 h1{
-    background-color: rgb(175, 175, 175);
+    background-color: rgba(248, 248, 248, 0.568);
     padding: 10px;
     border-radius: 10px;
     width: 85%;
@@ -17,11 +24,13 @@ h1{
     margin-right: 6%;
     margin-top: 10px;
     text-align: justify;
+    border: 2px solid black;
 }
 p{
-    background-color: rgb(175, 175, 175);
+    background-color: rgba(248, 248, 248, 0.568);
     padding: 10px;
     text-align: justify;
     width: 95%;
     border-radius: 10px;
+    border: 2px solid black;
 }
